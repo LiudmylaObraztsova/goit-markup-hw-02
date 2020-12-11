@@ -1,33 +1,26 @@
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
-  --accent-color: #2196f3; 
+  --accent-color: #2196f3;
   --primary-white-color: #ffffff;
 }
-
 
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
-  font-family: roboto, sans-serif;
 }
 /*  #000000 цвет лого */
 
 /* утилита list для сброса маркеров в списках */
 .list {
   list-style: none;
-}   
+}
 
 /* оформление логотипа */
 .logo {
   color: #000000;
   text-decoration: none;
-  font-family: raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line height: 1.17;
 }
-
 .logo:hover {
   color: var(--accent-color);
 }
@@ -44,14 +37,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
- 
+
 .site-nav .link {
   color: var(--title-text-color);
   text-decoration: none;
 }
 
 .site-nav .link:hover,
-.site-nav .link:focus  {
+.site-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -61,14 +54,13 @@ body {
 }
 
 .auth-nav .link:hover,
-.auth-nav .link:focus  {
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
 
-
- /* Секция герой*/
+/* Секция герой*/
 .hero {
-  background-color: #2F303A 
+  background-color: #2f303a;
 }
 
 .hero-title {
@@ -80,16 +72,15 @@ body {
   text-transform: uppercase;
   color: var(--primary-white-color);
 }
- 
+
 button {
-  background-color:var(--accent-color);
+  background-color: var(--accent-color);
   color: var(--primary-white-color);
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
 }
-
 
 .section-title {
   color: var(--title-text-color);
