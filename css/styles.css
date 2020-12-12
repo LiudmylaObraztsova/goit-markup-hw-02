@@ -8,6 +8,7 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primary-background-color);
+  font-family: roboto, sans-serif;
 }
 /*  #000000 цвет лого */
 
@@ -20,7 +21,13 @@ body {
 .logo {
   color: #000000;
   text-decoration: none;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
 }
+
 .logo:hover {
   color: var(--accent-color);
 }
@@ -31,7 +38,7 @@ body {
 /* Шапка сайта, меню навигации */
 
 .site-nav,
-.auth-nav {
+.contacts {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -48,13 +55,17 @@ body {
   color: var(--accent-color);
 }
 
-.auth-nav .link {
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.contacts .link {
   color: var(--title-text-color);
   text-decoration: none;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
+.contacts .link:hover,
+.contacts .link:focus {
   color: var(--accent-color);
 }
 
@@ -64,18 +75,20 @@ body {
 }
 
 .hero-title {
+  color: var(--primary-white-color);
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--primary-white-color);
 }
 
 button {
   background-color: var(--accent-color);
   color: var(--primary-white-color);
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
@@ -84,12 +97,77 @@ button {
 
 .section-title {
   color: var(--title-text-color);
+  font-weight: 700;
+
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .features .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.features .text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .employees .title {
   color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.employees .text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* footer */
+footer {
+  background-color: #2f303a;
+}
+
+.logo-footer {
+  color: var(--primary-white-color);
+  text-decoration: none;
+  font-family: raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+address {
+  color: var(--primary-white-color);
+
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.contacts-footer .link {
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
