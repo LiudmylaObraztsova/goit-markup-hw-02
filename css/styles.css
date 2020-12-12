@@ -60,7 +60,7 @@ body {
 }
 
 .contacts .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
   text-decoration: none;
   list-style: none;
 }
@@ -126,11 +126,12 @@ body {
 .employees .title {
   color: var(--title-text-color);
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
+  font-style: normal;
 }
 
 .employees .text {
@@ -157,6 +158,7 @@ footer {
 .location {
   color: var(--primary-white-color);
 
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
